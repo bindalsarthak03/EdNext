@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.footCont{
+    width: 100%;
+    background-image: linear-gradient(to bottom, #9f04ff, #6402A3);
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footHead{
+    font-size: 55px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.subFootHead {
+    display: none;
+}
+
+.footVals{
+    width: 100%;
+    margin: 40px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.figure{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.val{
+    font-size: 45px;
+    color: white;
+}
+.obj{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2d0a43;
+}
+
+button{
+    margin-top: 40px ;
+    transition: all ease 200ms;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FCE300;
+}
+
+.footCont button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.footCont button:hover{
+    transition:  ease 200ms;
+    background-color: #7102B8;
+    border:  solid #FCE300;
+    padding: 13px 40px;
+    a{
+        color: #fce300;
+    }
+}
+
+.ack{
+    color: #000000;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+@media (max-width:1025px) {
+    .footHead{
+        font-size: 48px;
+    }
+    .footVals{
+        margin: 35px;
+    }
+    .val{
+        font-size: 38px;
+    }
+    .obj{
+        font-size: 16px;
+    }  
+    button a{
+        font: 18px;
+    }
+    .ack{
+        font-size: 16px;
+    }
+}
+@media (max-width:769px) {
+    .footCont{
+        padding-top: 80px;
+    }
+    .footHead{
+        font-size: 46px;
+    }
+    .footVals{
+        margin: 33px;
+    }
+    .val{
+        font-size: 36px;
+    }
+    .obj{
+        font-size: 14px;
+    }  
+    button a{
+        font-size: 16px;
+    }
+    .ack{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:769px) {
+    .footCont{
+        padding-top: 70px;
+    }
+    .footHead{
+        font-size: 41px;
+    }
+    .footVals{
+        margin: 28px;
+    }
+    .val{
+        font-size: 31px;
+    }
+    .obj{
+        font-size: 9px;
+    }  
+    button a{
+        padding: 0px;
+        font-size: 12px;
+    }
+    .ack{
+        font-size: 9x;
+    }
+}
+@media (max-width:700px) {
+    .footCont{
+        padding-top: 80px;
+    }
+    .footHead{
+        font-size: 40px;
+    }
+    .subFootHead{
+        display: flex;
+        color: rgb(194, 193, 193);
+    }
+    .val{
+        display: none;
+        font-size: 36px;
+    }
+    .obj{
+        display: none;
+        font-size: 14px;
+    }  
+    button a{
+        font-size: 16px;
+    }
+    .ack{
+        font-size: 14px;
+    }
+}
+
+

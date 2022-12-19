@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+@function stroke($stroke, $color) {
+    $shadow: ();
+    $from: $stroke * -1;
+    @for $i from $from through $stroke {
+      @for $j from $from through $stroke {
+        $shadow: append($shadow, $i * 1px $j * 1px 0 $color, comma);
+      }
+    }
+    @return $shadow;
+}
+
+@mixin stroke($stroke, $color) {
+  text-shadow: stroke($stroke, $color);
+}
+
+.facCont{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom, #9f04ff, #6402A3);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    @include stroke(2,#6402A3);
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding: 50px 10px 10px 10px;
+}
+
+h1 span{
+  letter-spacing: -2px;
+    @include stroke(0,BLACK);
+    color: black;
+
+}
+ 
+.faculty{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img  
+{   
+  border-radius: 50%;
+  min-height: 250px;
+  min-width: 250px;
+  max-height: 250px;
+  max-width: 250px;
+} 
+
+.owl-nav button.owl-prev span {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  left: 0;
+}
+.owl-nav button.owl-next  span{
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  right: 0;
+}
+
+.owl-carousel span{
+  display: none;
+  color: white;
+  margin: 0;
+  background-color: inherit;
+}
+
+.name {
+  margin-top: 8px;
+  font-size: 26px;
+  font-weight: 800;
+  color: white;
+}
+
+.sub, .edu, .exp{
+  margin: 2px;;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(178, 175, 175);
+}
+.owl-carousel .owl-stage-outer{
+  max-height: 400px;
+  height: auto;
+}
+
+@media(max-width:770px){
+  
+  .owl-carousel {span{
+    display: none;
+  }}
+}
+
+@media (max-width:450px){
+  h1{
+    font-size: 40px;
+  }
+  .name{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .img  
+{   
+  border-radius: 50%;
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 200px;
+  max-width: 200px;
+} 
+.sub, .edu, .exp{
+  margin: 2px;;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(188, 187, 187);
+}
+
+}
+@media (max-width:310px){
+
+  
+  h1{
+    font-size: 30px;
+  }
+  .name{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .img  
+{   
+  border-radius: 50%;
+  min-height: 150px;
+  min-width: 150px;
+  max-height: 150px;
+  max-width: 150px;
+} 
+.sub, .edu, .exp{
+  margin: 2px;;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgb(188, 187, 187);
+}
+
+}

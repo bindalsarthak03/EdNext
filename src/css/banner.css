@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.p {
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    margin-top: 20px;
+    padding: 40px 0px 40px 0px;
+    max-width: 3000px;
+    background-image: url('https://res.cloudinary.com/dnowsn1o5/image/upload/v1670593868/Banner_de5koj.png');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.banner>.heading {
+
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.banner>.description {
+
+    font-weight: 500;
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+
+.banner>.description2 {
+
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.banner>.video {
+    border-radius: 10px 10px 10px 10px;
+    height: 200px;
+    width: 400px;
+
+}
+
+.banner>.btn {
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 0px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.btn>a {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #6402A3;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #e5dddd;
+
+}
+
+.txt-rotate {
+    font-size: 30px;
+    color: white;
+}
+
+#container {
+    text-align: center;
+}
+
+#text {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-text-stroke: 1px white;
+    color: #6402A3;
+    letter-spacing: 2px;
+}
+
+
+
+
+@keyframes blink {
+    from, to {
+        background-color: transparent
+    }
+
+    50% {
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 1449px) {
+    .banner {
+        padding-bottom: 40px;
+    }
+
+    .banner>.heading {
+        font-size: 35px;
+    }
+
+    .banner>.description {
+        font-size: 25px;
+    }
+
+    .banner>.description2 {
+        font-size: 20px;
+    }
+
+    .txt-rotate {
+        font-size: 28px;
+    }
+
+    .banner>.video {
+        height: 150px;
+        width: 300px;
+    }
+
+    .banner>.btn {
+        margin-top: 20px;
+        padding: 0px 22px 2px 22px;
+    }
+
+    .banner>.btn>a {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .banner {
+        padding-bottom: 30px;
+    }
+
+    .banner>.heading {
+        font-size: 25px;
+    }
+
+    .banner>.description {
+        font-size: 15px;
+    }
+
+    .banner>.description2 {
+        font-size: 10px;
+    }
+
+    .txt-rotate {
+        font-size: 18px;
+    }
+
+    .banner>.video {
+        height: 100px;
+        width: 200px;
+    }
+
+    .banner>.btn {
+        
+        margin-top: 15px;
+        padding: 0px 18px 2px 18px;
+    }
+
+    .banner>.btn>a {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .banner {
+        background-image: linear-gradient(to bottom, #9f04ff, #6402A3);
+        background-size: contain;
+        padding-left: 10px;
+        padding-top: 40px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+
+    }
+
+    .banner>.heading {
+        font-size: 35px;
+        -webkit-text-stroke: 0px #000000;
+    }
+
+    .banner>.description {
+        font-size: 22px;
+    }
+
+    .banner>.description2 {
+        font-size: 17px;
+    }
+
+    .txt-rotate {
+        font-size: 15px;
+        -webkit-text-stroke: 0px #000000;
+    }
+
+    .banner>.video {
+        height: 150px;
+        width: 280px;
+    }
+
+    .banner>.btn {
+        margin-top: 20px;
+        height: 35px;
+        width: 150px;
+    }
+
+    .banner>.btn>a {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .banner {
+        background-image: linear-gradient(to bottom, #9f04ff, #6402A3);
+
+
+    }
+
+    .banner>.heading {
+        font-size: 28px;
+        -webkit-text-stroke: 0px #000000;
+    }
+
+    .banner>.description {
+        font-size: 15px;
+    }
+
+    .banner>.description2 {
+        font-size: 13px;
+    }
+
+    .txt-rotate {
+        font-size: 15px;
+        -webkit-text-stroke: 0px #000000;
+    }
+
+    .banner>.video {
+        height: 80px;
+        width: 160px;
+    }
+
+    .banner>.btn {
+        margin-top: 20px;
+        height: 35px;
+        width: 150px;
+    }
+
+    .banner>.btn>a {
+        font-size: 13px;
+    }
+}

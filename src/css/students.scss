@@ -1,0 +1,40 @@
+@function stroke($stroke, $color) {
+    $shadow: ();
+    $from: $stroke * -1;
+    @for $i from $from through $stroke {
+      @for $j from $from through $stroke {
+        $shadow: append($shadow, $i * 1px $j * 1px 0 $color, comma);
+      }
+    }
+    @return $shadow;
+}
+
+@mixin stroke($stroke, $color) {
+  text-shadow: stroke($stroke, $color);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    @include stroke(2,#6402A3);
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding: 120px 10px 10px 10px;
+}
+
+h1 span{
+  letter-spacing: -2px;
+    @include stroke(0,BLACK);
+    color: #6402A3;
+
+}
+
+.studCont{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+
+
