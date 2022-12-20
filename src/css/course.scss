@@ -26,12 +26,23 @@
     padding-top: 2vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     h2{
+      color: wheat;
         text-align: center;
 
     }
+    .class11{
+      margin-top: 5vh;
+      h2{
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        background-color: #6402A3;
+      }
+    }
 }
+
+
 .courseCont h1{
     font-size: 50px;
     text-align: center;
