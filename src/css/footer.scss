@@ -5,6 +5,7 @@
 }
 
 .footCont{
+    bottom: 0;
     width: 100%;
     background-image: linear-gradient(to bottom, #9f04ff, #6402A3);
     padding-top: 100px;
@@ -50,13 +51,14 @@
 }
 .obj{
     font-size: 20px;
-    font-weight: 600;
-    color: #2d0a43;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #490772;
 }
 
 button{
     margin-top: 40px ;
-    transition: all ease 200ms;
+    transition: all ease 400ms;
     padding: 15px 40px;
     border: none;
     border-radius: 30px;
@@ -72,7 +74,7 @@ button{
 }
 
 .footCont button:hover{
-    transition:  ease 200ms;
+    transition:  all 400ms;
     background-color: #7102B8;
     border:  solid #FCE300;
     padding: 13px 40px;
@@ -82,10 +84,34 @@ button{
 }
 
 .ack{
-    color: #000000;
-    margin-top: 50px;
+    color: #290b3b;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 2vh;
     font-size: 20px;
 
+}
+
+.socIcons{
+    padding-top: 9vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    a{
+        text-decoration: none;
+        transition:all ease 400ms;
+        
+    }
+    
+    
+}
+
+.socIcons a:hover{
+    transform: scale(1.5);
+    transition: all 400ms;
 }
 
 @media (max-width:1025px) {

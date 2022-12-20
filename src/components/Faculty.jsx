@@ -36,7 +36,7 @@ function Faculty() {
 
 
     return (
-        <div className='facCont'>
+        <div className='facCont' id='facs'>
             <h1>Our <span>Faculties</span></h1>
             <div className='container-fluid'>
                 <OwlCarousel items={itemNum}

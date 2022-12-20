@@ -25,7 +25,7 @@
   padding: 30px;
 }
 
-h1 {
+.featCont h1 {
   font-size: 50px;
   text-align: center;
   @include stroke(2, #6402a3);
@@ -35,7 +35,7 @@ h1 {
   padding: 50px 10px 10px 10px;
 }
 
-h1 span {
+.featCont h1 span {
   letter-spacing: -2px;
   @include stroke(0, BLACK);
   color: black;

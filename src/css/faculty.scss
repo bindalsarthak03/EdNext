@@ -27,7 +27,7 @@
     background-image: linear-gradient(to bottom, #9f04ff, #6402A3);
 }
 
-h1{
+.faccont h1{
     font-size: 50px;
     text-align: center;
     @include stroke(2,#6402A3);
@@ -37,7 +37,7 @@ h1{
     padding: 50px 10px 10px 10px;
 }
 
-h1 span{
+.facCont h1 span{
   letter-spacing: -2px;
     @include stroke(0,BLACK);
     color: black;
@@ -106,7 +106,7 @@ h1 span{
 }
 
 @media (max-width:450px){
-  h1{
+  .facCont h1{
     font-size: 40px;
   }
   .name{
@@ -132,7 +132,7 @@ h1 span{
 @media (max-width:310px){
 
   
-  h1{
+  .facCont h1{
     font-size: 30px;
   }
   .name{

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
 @function stroke($stroke, $color) {
     $shadow: ();
     $from: $stroke * -1;
@@ -13,27 +18,37 @@
   text-shadow: stroke($stroke, $color);
 }
 
-.studCont h1{
+.courseCont{
+    padding-top: 2vh;
+}
+
+.classes{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        text-align: center;
+
+    }
+}
+.courseCont h1{
     font-size: 50px;
     text-align: center;
     @include stroke(2,#6402A3);
     color: white;
     letter-spacing: 2px;
     font-weight: 900;
-    padding: 120px 10px 10px 10px;
+    padding: 50px 10px 10px 10px;
 }
 
-.studCont h1 span{
+.courseCont h1 span{
   letter-spacing: -2px;
     @include stroke(0,BLACK);
-    color: #000000;
+    color: black;
 
 }
 
-.studCont{
-  padding-bottom: 100px;
-  
+th, td{
+    text-align: center;
 }
-
-
-

@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../css/navbar.css";
+import {Link} from 'react-router-dom';
 
 function Navbar() {
 	const navRef = useRef();
@@ -15,11 +16,11 @@ function Navbar() {
         <img src="https://ednext.in/wp-content/uploads/2021/07/imgonline-com-ua-ReplaceColor-zmWDVbhFTA1-300x128.jpg" alt="" />
       </a>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">Courses</a>
-				<a href="/#">Faculties</a>
+				<Link to='/'>Home</Link>
+				<Link to="/courses">Courses</Link>
+				<a href="/#">Careers</a>
 				<a href="/#">Contact</a>
-        <a href="/#">Book a Trial</a>
+        <a href="#footer">Book a Trial</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

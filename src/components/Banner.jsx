@@ -70,7 +70,7 @@ const Banner = () => {
                     <br/>preparation now!</p>
             <iframe className='video' width="1571" height="656" src="https://www.youtube.com/embed/j0c832maFOU" title="Ednext Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <button className='btn'>
-                <a href="#">Our Faculties</a>
+                <a href="#facs">Our Faculties</a>
             </button>
         </div>
     )
