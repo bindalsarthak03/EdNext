@@ -18,7 +18,7 @@ function Navbar() {
 			<nav ref={navRef}>
 				<Link to='/'>Home</Link>
 				<Link to="/courses">Courses</Link>
-				<a href="/#">Careers</a>
+				<Link to="/careers">Careers</Link>
 				<a href="/#">Contact</a>
         <a href="#footer">Book a Trial</a>
 				<button

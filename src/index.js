@@ -5,11 +5,13 @@ import './index.css'
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import Home from './components/Home';
 import Courses from './components/Courses';
+import Careers from './components/Careers';
 ReactDOM.render( 
 <BrowserRouter>
     <Routes>
         <Route path='/' exact element={<Home/>}/>
         <Route path='/courses' exact element={<Courses/>}/>
+        <Route path='/careers' exact element={<Careers/>}/>
     </Routes>
 
 </BrowserRouter>
