@@ -19,7 +19,7 @@ function Navbar() {
 				<Link to='/'>Home</Link>
 				<Link to="/courses">Courses</Link>
 				<Link to="/careers">Careers</Link>
-        <a href="#footer">Book a Trial</a>
+        <a href="https://forms.gle/e21unYGvbWs7YVgEA" target="_blank">Book a Trial</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

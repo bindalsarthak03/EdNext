@@ -18,7 +18,7 @@ function Footer(){
           <div className="obj">HOURS OF TEACHING</div>
           
       <button>
-        <a href="">Enroll Now</a>
+        <a href="https://forms.gle/e21unYGvbWs7YVgEA" target="_blank">Enroll Now</a>
       </button>
       <div className="socIcons">
         <a href="https://www.instagram.com/ednextindia/" target="_blank">

@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   padding: 30px;
-  h2{
+  h2 {
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -106,123 +106,201 @@
   transition: ease 0.5s;
 }
 
-.mail{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.mail {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+
   width: 100%;
-  .forms{
-    display: flex;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  .left {
+    .headingMail {
+      font-size: 25px;
+    }
+    .details {
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+  .right {
+    display: block;
+    iframe {
+      height: 35vh;
+      width: 60vh;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .mail {
     flex-direction: column;
     align-items: center;
-    width: inherit;
-    input{
-      width: inherit;
-      margin-top: 1vh;
-      margin-bottom: 1vh;
-      border: 2px solid #c9c8ca;
-    }
+    justify-content: space-around;
   }
-}
 
-
-@media (max-width:1100px) {
-  .leftCont{
-    .icon{
-      p{
+  .leftCont {
+    .icon {
+      p {
         font-size: 50px;
       }
     }
-    .note{
+    .note {
       font-size: 13px;
     }
-  }.rightCont{
-    .icon{
-      p{
+  }
+  .rightCont {
+    .icon {
+      p {
         font-size: 50px;
       }
     }
-    .note{
+    .note {
       font-size: 13px;
     }
   }
 }
-@media (max-width:750px) {
-  .leftCont{
-    .icon{
-      p{
+@media (max-width: 750px) {
+  .mail {
+    iframe{
+      height: 20vh;
+      width: 40vh;
+    }
+  }
+  .leftCont {
+    .icon {
+      p {
         font-size: 40px;
       }
     }
-    .note{
+    .note {
       font-size: 12px;
-      
     }
-  }.rightCont{
-    .icon{
-      p{
+  }
+  .rightCont {
+    .icon {
+      p {
         font-size: 40px;
       }
     }
-    .note{
+    .note {
       font-size: 12px;
     }
   }
 }
-@media (max-width:550px) {
-  .leftCont{
-    .icon{
-      p{
-        font-size: 30px;
-      }
+
+@media (max-width: 603px) {
+  .mail {
+    .right{
+    iframe{
+      height: 300px;
+      width: 400px;
     }
-    .note{
-      h2{
+  }
+  }
+  
+}
+@media (max-width: 550px) {
+  .mail{
+    .left{
+      .headingMail{
         font-size: 15px;
       }
-      font-size: 10px;
+      .details{
+        font-size: 12px;
+      }
     }
-  }.rightCont{
-    .icon{
-      p{
+  }
+  .leftCont {
+    .icon {
+      p {
         font-size: 30px;
       }
     }
-    .note{
-      h2{
+    .note {
+      h2 {
         font-size: 15px;
       }
       font-size: 10px;
     }
   }
-  @media (max-width:450px) {
-    .leftCont{
+  .rightCont {
+    .icon {
+      p {
+        font-size: 30px;
+      }
+    }
+    .note {
+      h2 {
+        font-size: 15px;
+      }
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 450px) {
+    .mail {
+      .right{
+      iframe{
+        height: 250px;
+        width: 300px;
+      }
+    }
+    }
+    .careerCont {
+      h1 {
+        font-size: 45px;
+      }
+      h2 {
+        font-size: 25px;
+      }
+    }
+
+    .leftCont {
       border-radius: 40px 40px 40px 40px;
       margin-top: 4%;
       margin-bottom: 4%;
       width: 100%;
-      .icon{
-        p{
+      .icon {
+        p {
           font-size: 25px;
         }
       }
-      .note{
+      .note {
         font-size: 13px;
       }
-    }.rightCont{
+    }
+    .rightCont {
       border-radius: 40px 40px 40px 40px;
       width: 100%;
       margin-top: 4%;
       margin-bottom: 4%;
       margin-left: 0;
-      .icon{
-        p{
+      .icon {
+        p {
           font-size: 25px;
         }
       }
-      .note{
+      .note {
         font-size: 13px;
       }
     }
   }
+}
+
+@media (max-width:300px) {
+  .mail{
+    .right{
+      display: none;
+    }
+  }
+  .careerCont{
+    h1{
+      font-size: 25px;
+    }
+    h2{
+      font-size: 20px;
+    }
+  }
+  
 }
