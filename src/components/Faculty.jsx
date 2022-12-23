@@ -42,6 +42,9 @@ function Faculty() {
                 <OwlCarousel items={itemNum}
                     className="owl-theme"
                     loop
+                    autoplay={true}
+                    autoplayTimeout={2000}
+                    autoplayHoverPause
                     nav
                     margin={20}
                     >

@@ -7,14 +7,14 @@ function Footer(){
   return(
     <div className="footCont" id="footer">
       <div className="footHead">Get Demo For Free</div>
-      <div className="subFootHead">Trusted by over 200+ students nationwide</div>
+      <div className="subFootHead">Trusted by over 350+ students nationwide</div>
       <div className="footVals">
         <div className="figure">
-          <div className="val">200+</div>
+          <div className="val">350+</div>
           <div className="obj">HAPPY STUDENTS</div>
         </div>
         <div className="figure">
-          <div className="val">10,000+</div>
+          <div className="val">20,000+</div>
           <div className="obj">HOURS OF TEACHING</div>
           
       <button>
@@ -31,7 +31,8 @@ function Footer(){
           <img src={icon3} alt="" />
         </a>
       </div>
-      <div className="ack">Made with 💖 by EdNext.</div>
+      
+      <div className="ack">Made with ❤️ by EdNext</div>
       
         </div>
         <div className="figure">
