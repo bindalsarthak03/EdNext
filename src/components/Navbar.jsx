@@ -12,14 +12,13 @@ function Navbar() {
 
 	return (
 		<header>
-			<a href="">
+			<Link to="/">
         <img src="https://ednext.in/wp-content/uploads/2021/07/imgonline-com-ua-ReplaceColor-zmWDVbhFTA1-300x128.jpg" alt="" />
-      </a>
+      </Link>
 			<nav ref={navRef}>
 				<Link to='/'>Home</Link>
 				<Link to="/courses">Courses</Link>
 				<Link to="/careers">Careers</Link>
-				<a href="/#">Contact</a>
         <a href="#footer">Book a Trial</a>
 				<button
 					className="nav-btn nav-close-btn"

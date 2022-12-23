@@ -1,7 +1,7 @@
  const facData=[
     {
         id:1,
-        imgsrc:'https://ednext.in/wp-content/uploads/2021/06/Untitled-design-6-300x288.png',
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778328/Ednext/Faculty/Rajesh_Kumar_yodau9.png',
         name:'Rajesh Kumar',
         subject:'Maths',
         edu:'Btech IIT Bombay',
@@ -9,7 +9,7 @@
     },
     {
         id: 2,
-        imgsrc:'https://ednext.in/wp-content/uploads/2021/06/8-300x288.png',
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778328/Ednext/Faculty/Dev_Raj_jiag9v.png',
         name:'Dev Raj',
         subject:'Chemistry Faculty',
         edu:'IIT Roorkee',
@@ -17,46 +17,53 @@
     },
     {
         id: 3,
-        imgsrc:'https://ednext.in/wp-content/uploads/2021/06/3-300x288.png',
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778328/Ednext/Faculty/Santanu_Mohapatra_guny5w.png',
         name:'Santanu Mohapatra',
         subject:'Physics Faculty',
         edu:'Btech IIT Kharagpur',
         exp:'4+ years of teaching experience'
     },{
         id: 4,
-        imgsrc:'https://ednext.in/wp-content/uploads/2021/06/5-300x288.png',
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778328/Ednext/Faculty/Ranvi_Kumar_o48mag.png',
         name:'Ravi Kumar',
         subject:'Physics Faculty',
         edu:'Btech Mtech IIT Kharagpur',
         exp:'4+ years of teaching experience'
     },{
         id: 5,
-        imgsrc:'https://ednext.in/wp-content/uploads/2021/06/2-300x288.png',
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778323/Ednext/Faculty/Suraj_Sain_oqfetj.png',
         name:'Suraj Sain',
         subject:'Maths Faculty',
         edu:'Btech IIT Roorkee',
         exp:'4+ years of teaching experience'
     },{
         id: 6,
-        imgsrc:'https://ednext.in/wp-content/uploads/2021/06/4-300x288.png',
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778323/Ednext/Faculty/Shashank_Garg_hsn158.png',
         name:'Shashank Garg',
         subject:'Maths Faculty',
         edu:'IIT Roorkee',
         exp:'4+ years of teaching experience'
     },{
         id: 7,
-        imgsrc:'https://ednext.in/wp-content/uploads/2021/06/7-300x288.png',
-        name:'Nishan Kumar',
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778323/Ednext/Faculty/Nishant_Kumar_zfhltr.png',
+        name:'Nishant Kumar',
         subject:'Chemistry Faculty',
         edu:'Btech Mtech IIT ISM Dhanbad',
         exp:'6+ years of teaching experience'
     },{
         id: 8,
-        imgsrc:'https://ednext.in/wp-content/uploads/2021/07/WhatsApp-Image-2021-06-30-at-7.42.57-PM-252x300.jpeg',
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778323/Ednext/Faculty/Mrityunjay_Kumar_m9dvsg.jpg',
         name:'Mritunjay Kumar',
         subject:'Chemistry Faculty',
         edu:'Btech IIT ISM Dhanbad',
         exp:'4+ years of experience'
+    },{
+        id: 9,
+        imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778845/Ednext/Faculty/Abhishek_szmh8d.jpg',
+        name:'Abhishek Kumar',
+        subject:'Maths Faculty',
+        edu:'Btech Mtech IIT ISM Dhanbad',
+        exp:'7+ years of experience'
     }
 ]
 
