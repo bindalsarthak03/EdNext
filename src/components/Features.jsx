@@ -8,7 +8,7 @@ function Features() {
     return (
         <div className="featCont">
             <h1>Our <span>Salient Features</span></h1>
-            <div className="leftCont">
+            <div className="leftCont" data-aos="zoom-in" data-aos-duration="1500">
                 <div className="icon">
                     <p><GiTeacher /></p>
                 </div>
@@ -17,7 +17,7 @@ function Features() {
                     <p>We provide personlised assistance and teaching. MIT Research suggests, personal attention promises best results</p>
                 </div>
             </div>
-            <div className="rightCont">
+            <div className="rightCont" data-aos="zoom-out" data-aos-duration="1500">
                 <div className="icon">
                     <p><BsFillPeopleFill /></p>
                 </div>
@@ -26,7 +26,7 @@ function Features() {
                     <p>We are backed with top <b>IITian</b> faculties. Faculties that have already cleared the exam that student aspires to. Proper guidance with personal attention.</p>
                 </div>
             </div>
-            <div className="leftCont">
+            <div className="leftCont" data-aos="zoom-in" data-aos-duration="1500">
                 <div className="icon">
                     <p><MdOndemandVideo/></p>
                 </div>
@@ -35,7 +35,7 @@ function Features() {
                     <p>Live Online classes with a maximum of 3 students in the group ensuring equal attention to each child.This ensures holistic development for the student.</p>
                 </div>
             </div>
-            <div className="rightCont">
+            <div className="rightCont" data-aos="zoom-out" data-aos-duration="1500">
                 <div className="icon">
                     <p><BsClockHistory /></p>
                 </div>
@@ -44,7 +44,7 @@ function Features() {
                     <p>Our teachers are available throughout the day. A single message will connect teacher and student.</p>
                 </div>
             </div>
-            <div className="leftCont">
+            <div className="leftCont" data-aos="zoom-in" data-aos-duration="1500">
                 <div className="icon">
                     <p><FcFeedback/></p>
                 </div>

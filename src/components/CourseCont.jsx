@@ -3,7 +3,7 @@ import '../css/course.scss'
 import Table from 'react-bootstrap/Table'
 function CourseCont() {
   return (
-    <div className='courseCont'>
+    <div className='courseCont' data-aos="zoom-in" data-aos-duration="1500">
       <h1>Our <span>Courses</span></h1>
       <div className="classes">
 

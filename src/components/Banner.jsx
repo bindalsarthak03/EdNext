@@ -59,7 +59,7 @@ const Banner = () => {
       };
 
     return (
-        <div className="banner" >
+        <div className="banner"  data-aos="zoom-in" data-aos-duration="1000">
             <p className='heading'>Your own personalised education portal</p>
             <p className='description'>A platform where you can learn <br /> directly from top faculties</p>
             <p className='description2'>Start your <br/>

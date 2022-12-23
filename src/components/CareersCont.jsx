@@ -5,10 +5,10 @@ import {SiNintendonetwork} from 'react-icons/si'
 import {FaRegMoneyBillAlt, FaRegHourglass} from 'react-icons/fa'
 function CareersCont() {
     return (
-        <div className="careerCont">
+        <div className="careerCont" data-aos="zoom-in" data-aos-duration="1500">
             <h1>Career <span>Opportunities</span></h1>
             <h2 style={{ textAlign: 'center' }}>Perks of working with us!</h2>
-            <div className="leftCont">
+            <div className="leftCont" data-aos="zoom-in" data-aos-duration="1500">
             <div className="icon">
                     <p><TfiWorld/></p>
                 </div>
@@ -18,7 +18,7 @@ function CareersCont() {
                 </div>
             </div>
             
-            <div className="rightCont">
+            <div className="rightCont" data-aos="zoom-in" data-aos-duration="1500">
             <div className="icon">
                     <p><FaRegMoneyBillAlt/></p>
                 </div>
@@ -27,7 +27,7 @@ function CareersCont() {
                     <p>Get paid on an hourly basis, earn for efforts you put in. Also earn the love and respect of students.</p>
                 </div>
             </div>
-            <div className="leftCont">
+            <div className="leftCont" data-aos="zoom-in" data-aos-duration="1500">
             <div className="icon">
                     <p><FaRegHourglass/></p>
                 </div>
@@ -36,7 +36,7 @@ function CareersCont() {
                     <p>Routine training sessions, feedback, feedback discussions on improving your teaching.</p>
                 </div>
             </div>
-            <div className="rightCont">
+            <div className="rightCont" data-aos="zoom-in" data-aos-duration="1500">
             <div className="icon">
                     <p><SiNintendonetwork/></p>
                 </div>
@@ -45,9 +45,9 @@ function CareersCont() {
                     <p>Be a part of thriving group of teach-preneurs and learn well.</p>
                 </div>
             </div>
-            <div className="mail">
+            <div className="mail" >
                 <h1>Register <span>Here!</span></h1>
-                <form action="mailto: " method="post" className='forms'>
+                <form action="mailto: sarojshyam46@gmail.com" method="post" className='forms'>
                     <input type="text" placeholder='Name' style={{width:'70%',padding:'5px 10px',borderRadius:'40px 40px 40px 40px'}}/>
                     <input type="text" placeholder='E-mail' style={{width:'70%',padding:'5px 10px',borderRadius:'40px 40px 40px 40px'}}/>
                     <input type="text" placeholder='Contact' style={{width:'70%',padding:'5px 10px',borderRadius:'40px 40px 40px 40px'}}/>
