@@ -41,7 +41,7 @@
   color: black;
 }
 
-.leftCont {
+.featCont .leftCont {
   margin-top: 1%;
   margin-bottom: 1%;
   height: auto;
@@ -66,12 +66,12 @@
   }
 }
 
-.leftCont:hover {
+.featCont .leftCont:hover {
   transform: scale(1.02);
   transition: ease 0.5s;
 }
 
-.rightCont {
+.featCont .rightCont {
   border-radius: 40px 2px 40px 40px;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -96,7 +96,7 @@
   }
 }
 
-.rightCont:hover {
+.featCont .rightCont:hover {
   transform: scale(1.02);
   transition: ease 0.5s;
 }
