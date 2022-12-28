@@ -103,7 +103,7 @@
 
 
 @media (max-width:1100px) {
-  .leftCont{
+  .featCont.leftCont{
     .icon{
       p{
         font-size: 60px;
@@ -112,7 +112,8 @@
     .note{
       font-size: 13px;
     }
-  }.rightCont{
+  } 
+  .featCont .rightCont{
     .icon{
       p{
         font-size: 60px;
@@ -124,7 +125,7 @@
   }
 }
 @media (max-width:750px) {
-  .leftCont{
+   .featCont .leftCont{
     .icon{
       p{
         font-size: 50px;
@@ -134,7 +135,8 @@
       font-size: 12px;
       
     }
-  }.rightCont{
+  }
+  .featCont .rightCont{
     .icon{
       p{
         font-size: 50px;
@@ -146,7 +148,7 @@
   }
 }
 @media (max-width:550px) {
-  .leftCont{
+  .featCont .leftCont{
     .icon{
       p{
         font-size: 40px;
@@ -158,7 +160,7 @@
       }
       font-size: 10px;
     }
-  }.rightCont{
+  }.featCont .rightCont{
     .icon{
       p{
         font-size: 40px;
@@ -172,7 +174,7 @@
     }
   }
   @media (max-width:450px) {
-    .leftCont{
+    .featCont .leftCont{
       border-radius: 40px 40px 40px 40px;
       margin-top: 4%;
       margin-bottom: 4%;
@@ -185,7 +187,8 @@
       .note{
         font-size: 13px;
       }
-    }.rightCont{
+    }
+    .featCont .rightCont{
       border-radius: 40px 40px 40px 40px;
       width: 100%;
       margin-top: 4%;
