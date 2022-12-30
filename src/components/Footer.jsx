@@ -21,7 +21,7 @@ function Footer(){
         <a href="https://forms.gle/e21unYGvbWs7YVgEA" target="_blank">Enroll Now</a>
       </button>
       <div className="socIcons">
-        <a href="https://www.instagram.com/ednextindia/" target="_blank">
+        <a href="https://instagram.com/ednext.official?igshid=ZmZhODViOGI=" target="_blank">
           <img src={icon1} alt="#"  />
         </a>
         <a href="https://www.facebook.com/ednextindia/" target="_blank">
