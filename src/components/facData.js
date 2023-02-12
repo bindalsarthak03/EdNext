@@ -60,10 +60,17 @@
     },{
         id: 9,
         imgsrc:'https://res.cloudinary.com/dnowsn1o5/image/upload/v1671778845/Ednext/Faculty/Abhishek_szmh8d.jpg',
-        name:'Abhishek Kumar',
+        name:'Anshul Kumar',
         subject:'Maths Faculty',
         edu:'Btech Mtech IIT ISM Dhanbad',
         exp:'7+ years of experience'
+    },{
+        id: 10,
+        imgsrc:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Fn1q9ARFcWRHL1X5LpB9M9Sc9XVkwgXqfw&usqp=CAU',
+        name:'Abhishek Kumar',
+        subject:'Physics Faculty',
+        edu:'Btech Mtech IIT ISM Dhanbad',
+        exp:'6+ years of experience'
     }
 ]
 
